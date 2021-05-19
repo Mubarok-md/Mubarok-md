@@ -27,7 +27,7 @@ logo=red+str("""
 
       
  #HEADER                
-text=cyan+"\t\tDeveloped By : Sanaur Asif"+green+"\n\n\t\t★★ ROC-X BD SMS Bomber ★★   \n" 
+text=cyan+"\t\tDeveloped By : Hacker Boy"+green+"\n\n\t\t★★ ROC-X BD SMS Bomber ★★   \n" 
 notice=""     
 def header():
 	print(logo)
