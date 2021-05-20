@@ -15,7 +15,14 @@ end = '\033[0m'
 line=yellow+"======================================================================================================================"
 space=" "
 logo=red+str("""
-    ⸎ ⸎ ⸎ ⸎ ⸎ ⸎ ⸎ ⸎ ⸎ ⸎ Hacker-Boy ⸎ ⸎ ⸎ ⸎ ⸎ ⸎ ⸎ ⸎ ⸎ ⸎""")
+     8888888b.   .d88888b.   .d8888b.       Y88b   d88P 
+     888   Y88b d88P" "Y88b d88P  Y88b       Y88b d88P  
+     888    888 888     888 888    888        Y88o88P   
+     888   d88P 888     888 888        888888  Y888P    
+     8888888P"  888     888 888        888888  d888b    
+     888 T88b   888     888 888    888        d88888b   
+     888  T88b  Y88b. .d88P Y88b  d88P       d88P Y88b  
+     888   T88b  "Y88888P"   "Y8888P"       d88P   Y88b""")
 
 
 
@@ -26,7 +33,7 @@ notice=green+""
 # Definition
 
 def header():
-	print(logo+cyan+"\n\n\n\t\tDeveloped By : Hacker-Boy\n\n"+green+"\t\t     Version : "+str(version)+" \n\n"+end+line+"\n"+end)
+	print(logo+cyan+"\n\n\n\t\tDeveloped By : Sanaur Asif\n\n"+green+"\t\t     Version : "+str(version)+" \n\n"+end+line+"\n"+end)
 
 def clear():
 	os.system("clear || cls")
