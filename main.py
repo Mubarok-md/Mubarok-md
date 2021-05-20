@@ -12,8 +12,10 @@ yellow = '\33[93m'
 green = '\033[1;32m'
 cyan  = "\033[96m"
 end = '\033[0m'
-line=yellow+"==================================================================================================================================================================================================================
-logo ="""⸎ ⸎ ⸎ ⸎ ⸎ ⸎ ⸎ ⸎ ⸎ ⸎ Hacker-Boy ⸎ ⸎ ⸎ ⸎ ⸎ ⸎ ⸎ ⸎ ⸎ ⸎"""
+line=yellow+"======================================================================================================================"
+space=" "
+logo=red+str("""
+    ⸎ ⸎ ⸎ ⸎ ⸎ ⸎ ⸎ ⸎ ⸎ ⸎ Hacker-Boy ⸎ ⸎ ⸎ ⸎ ⸎ ⸎ ⸎ ⸎ ⸎ ⸎""")
 
 
 
@@ -202,6 +204,7 @@ while count<2:
 		
 	elif main_opt==str(about):
 		notice=""
+		print(cyan+"\n\n\tYoutube:"+yellow+"\n\n\thttps://www.youtube.com/c/RootOfCyber"+cyan+"\n\n\tFacebook:"+yellow+"\n\n\thttps://www.facebook.com/RootOfCyber"+cyan+"\n\n\tWhat\'s app:"+yellow+"\n\n\thttps://chat.whatsapp.com/JPTOWlsJhhgEVtzht4tAlr"+cyan+"\n\n\tTelegram:\n"+yellow+"https://t.me/joinchat/RScE4xF8TiQIOs2Z"+cyan+"\n\n\n\n\tContact Us:"+yellow+"\n\n\trootofcyber@gmail.com"+cyan+"\n\n\n\tDeveloped By "+yellow+"Sanaur Asif"+cyan+"\n\tFB:"+yellow+" https://fb.com/sanaur.asif.72")
 		a=input(cyan+"\n\n\t\t[>] Press "+yellow+"Enter"+cyan+" to Continue")
 		count=1
 	else:
