@@ -12,8 +12,7 @@ yellow = '\33[93m'
 green = '\033[1;32m'
 cyan  = "\033[96m"
 end = '\033[0m'
-line=yellow+"======================================================================================================================"
-space=" "
+line=yellow+"==================================================================================================================================================================================================================
 logo ="""⸎ ⸎ ⸎ ⸎ ⸎ ⸎ ⸎ ⸎ ⸎ ⸎ Hacker-Boy ⸎ ⸎ ⸎ ⸎ ⸎ ⸎ ⸎ ⸎ ⸎ ⸎"""
 
 
@@ -25,7 +24,7 @@ notice=green+""
 # Definition
 
 def header():
-	print(logo+cyan+"\n\n\n\t\tDeveloped By : MD-MUBAROK\n\n"+green+"\t\t     Version : "+str(version)+" \n\n"+end+line+"\n"+end)
+	print(logo+cyan+"\n\n\n\t\tDeveloped By : Hacker-Boy\n\n"+green+"\t\t     Version : "+str(version)+" \n\n"+end+line+"\n"+end)
 
 def clear():
 	os.system("clear || cls")
@@ -65,38 +64,38 @@ elif upchck!=version:
 	notice=""
 	print("\n")
 	clear()
-	notice=cyan+"\t\t[•] Backing up the Hacker-Boy...."
+	notice=cyan+"\t\t[•] Backing up the ROC-X...."
 	header()
-	os.system("mkdir $HOME/Hacker-Boy_updater")
-	os.system("cp -rf $HOME/Hacker-Boy $HOME/Hacker-Boy_updater")
+	os.system("mkdir $HOME/roc-x_updater")
+	os.system("cp -rf $HOME/roc-x $HOME/roc-x_updater")
 	try:
 		clear()
 		notice=cyan+"\t\t[•] Updating the Tools...."
 		header()
 		os.system("cd $HOME")
-		os.system("cd $HOME && rm -rf Hacker-Boy")
+		os.system("cd $HOME && rm -rf roc-x")
 		print(green)
-		os.system("cd $HOME && git clone https://github.com/Mubarok-md
+		os.system("cd $HOME && git clone https://github.com/RootOfCyber/roc-x")
 		clear()
 		notice=green+"\t\t[√] Update Successful!"
 		header()
-		print(cyan+"\n [•••] TerMux Restart is Required for The Update. Please Restart Termux For The Hacker-Boy Updated Version")
+		print(cyan+"\n [•••] TerMux Restart is Required for The Update. Please Restart Termux For The ROC-X Updated Version")
 		#os.kill(os.getppid(), signal.SIGHUP)
 		os.system("rm -rf $HOME/roc-x_updater")
 		for i in range(99999999999):
 			os.system("clear")
-			a=input(cyan+"\n"*10+" [>] Please Exit Termux from Notification Bar. Then Again Open Hacker-Boy Tools By :\n\n "+yellow+"\t [1] Exit Termux\n\t [2] Open Termux"+"\n\t [3] cd $HOME/Hacker-Boy"+yellow+"\n\t [4] "+yellow+"python3 main.py\n\n")
+			a=input(cyan+"\n"*10+" [>] Please Exit Termux from Notification Bar. Then Again Open ROC-X Tools By :\n\n "+yellow+"\t [1] Exit Termux\n\t [2] Open Termux"+"\n\t [3] cd $HOME/roc-x"+yellow+"\n\t [4] "+yellow+"python3 main.py\n\n")
 
 	except:
 		clear()
 		notice=red+"\t\t[×] Update Failed!"
 		header()
-		sjsjstshsb=input(cyan+"\n\n\t     Press Enter to Restore Hacker-Boy")
+		sjsjstshsb=input(cyan+"\n\n\t     Press Enter to Restore ROC-X")
 		os.system("cd $HOME")
-		os.system("cd $HOME && mkdir Hacker-Boy")
-		os.system("cd $HOME && cp -rf $HOME/Hacker-Boy_updater/roc-x $HOME")
-		os.system("rm -rf $HOME/Hacker-Boy_updater")
-		os.system("python3 $HOME/Hacker-Boy/main.py")
+		os.system("cd $HOME && mkdir roc-x")
+		os.system("cd $HOME && cp -rf $HOME/roc-x_updater/roc-x $HOME")
+		os.system("rm -rf $HOME/roc-x_updater")
+		os.system("python3 $HOME/roc-x/main.py")
 		for i in range(99999999999):
 			os.system("clear")
 			a=input(cyan+"\n"*10+" [>] Please Exit Termux from Notification Bar. Then Again Open ROC-X Tools By :\n\n "+yellow+"\t [1] Exit Termux\n\t [2] Open Termux"+"\n\t [3] cd $HOME/roc-x"+yellow+"\n\t [4] "+yellow+"python3 main.py\n\n")
@@ -108,7 +107,7 @@ while count<2:
 	header()
 	notice=""
 	print(cyan+"\n==> Select the number of the option that you want to start from below : ")
-	print(yellow+"\n  [1] BD SMS Bomber\n\n  [2] Hacker-Boy Phishing\n\n  [3] DDoS Attacker\n\n  [4] Kali NetHunter\n\n  [5] MetaSploit FrameWork\n\n  [6] E-Mail Bomber\n\n  ["+str(about)+"] Contact Us"+end)
+	print(yellow+"\n  [1] BD SMS Bomber\n\n  [2] ROC-X Phishing\n\n  [3] DDoS Attacker\n\n  [4] Kali NetHunter\n\n  [5] MetaSploit FrameWork\n\n  [6] E-Mail Bomber\n\n  ["+str(about)+"] Contact Us"+end)
 	main_opt=str(input(blue+"\n[>] Select Your Option : "+yellow))
 	
 	if main_opt=="1":
