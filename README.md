@@ -1,16 +1,19 @@
-### Hi there 👋
+var passwords = ['password123', 'qwertyuiop', 'admin2015', 'trustno1', 'letmein6969'];
+var indexOld;
+var index = Math.floor((Math.random() * passwords.length));
+var password = passwords[index];
+var characters = [];
+var counter = 0;
+	
+var interval = setInterval(function(){
+		for(i = 0; i < counter; i++) {
+			characters[i] = password.charAt(i);
+		}
+		for(i = counter; i < password.length; i++) {
+			characters[i] = Math.random().toString(36).charAt(2);
+		}
+		$('.password').text(characters.join(''));
+	}, 25);
+	
 
-<!--
-**Mubarok-md/Mubarok-md** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
-
-Here are some ideas to get you started:
-
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
--->
+function hack() {
