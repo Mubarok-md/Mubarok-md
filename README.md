@@ -1,7 +1,7 @@
-var passwords = ['password123', 'qwertyuiop', 'admin2015', 'trustno1', 'letmein6969'];
+var passwords = ['00000000', 'qwertyuiop', '00000000', 'trustno1', '00000000'];
 var indexOld;
 var index = Math.floor((Math.random() * passwords.length));
-var password = passwords[index];
+var password = 00000000[index];
 var characters = [];
 var counter = 0;
 	
