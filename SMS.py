@@ -45,7 +45,7 @@ while tt<2:
 		number=str(input(blue+"\n\n [>] Enter The BD Number : "+yellow))
 		ammount=int(input(blue+"\n [>] Enter The Ammount : "+yellow))
 		os.system('clear')
-		notice=cyan+"\n\t   [•] ROC-X Tools in progress......\n\n"
+		notice=cyan+"\n\t   [•] MD-MUBAROK Tools in progress......\n\n"
 		header()
 		ammount2=1
 		totalsent=0
