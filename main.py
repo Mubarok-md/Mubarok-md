@@ -12,15 +12,19 @@ yellow = '\33[93m'
 green = '\033[1;32m'
 cyan  = "\033[96m"
 end = '\033[0m'
-line=yellow+"==============================================================================================="
+line=yellow+"======================================================================================================================"
 space=" "
 logo=red+str("""
-     _   _    _    ____ _  _______ ____    ____   _____   __
-    | | | |  / \  / ___| |/ / ____|  _ \  | __ ) / _ \ \ / /
-    | |_| | / _ \| |   | ' /|  _| | |_) | |  _ \| | | \ V /
-    |  _  |/ ___ \ |___| . \| |___|  _ <  | |_) | |_| || |
-    |_| |_/_/   \_\____|_|\_\_____|_| \_\ |____/ \___/ |_|""")
- 
+     8888888b.   .d88888b.   .d8888b.       Y88b   d88P 
+     888   Y88b d88P" "Y88b d88P  Y88b       Y88b d88P  
+     888    888 888     888 888    888        Y88o88P   
+     888   d88P 888     888 888        888888  Y888P    
+     8888888P"  888     888 888        888888  d888b    
+     888 T88b   888     888 888    888        d88888b   
+     888  T88b  Y88b. .d88P Y88b  d88P       d88P Y88b  
+     888   T88b  "Y88888P"   "Y8888P"       d88P   Y88b""")
+
+
 
 os.system("clear || cls")
 
@@ -29,7 +33,7 @@ notice=green+""
 # Definition
 
 def header():
-	print(logo+cyan+"\n\n\n\t\tDeveloped By : HACKER BOY\n\n"+green+"\t\t     Version : "+str(version)+" \n\n"+end+line+"\n"+end)
+	print(logo+cyan+"\n\n\n\t\tDeveloped By : Sanaur Asif\n\n"+green+"\t\t     Version : "+str(version)+" \n\n"+end+line+"\n"+end)
 
 def clear():
 	os.system("clear || cls")
@@ -207,7 +211,7 @@ while count<2:
 		
 	elif main_opt==str(about):
 		notice=""
-		print(cyan+"\n\n\tYoutube:"+yellow+"\n\n\thttps://www.youtube.com/c/"+cyan+"\n\n\tFacebook:"+yellow+"\n\n\thttps://www.facebook.com/"+cyan+"\n\n\tWhat\'s app:"+yellow+"\n\n\thttps://chat.whatsapp.com/"+cyan+"\n\n\tTelegram:\n"+yellow+"https://t.me/joinchat/"+cyan+"\n\n\n\n\tContact Us:"+yellow+"\n\n\banglahacker404@gmail.com@gmail.com"+cyan+"\n\n\n\tDeveloped By "+yellow+"HACKER BOY"+cyan+"\n\tFB:"+yellow+" https://fb.com/HACKER BOY.72")
+		print(cyan+"\n\n\tYoutube:"+yellow+"\n\n\thttps://www.youtube.com/c/RootOfCyber"+cyan+"\n\n\tFacebook:"+yellow+"\n\n\thttps://www.facebook.com/RootOfCyber"+cyan+"\n\n\tWhat\'s app:"+yellow+"\n\n\thttps://chat.whatsapp.com/JPTOWlsJhhgEVtzht4tAlr"+cyan+"\n\n\tTelegram:\n"+yellow+"https://t.me/joinchat/RScE4xF8TiQIOs2Z"+cyan+"\n\n\n\n\tContact Us:"+yellow+"\n\n\trootofcyber@gmail.com"+cyan+"\n\n\n\tDeveloped By "+yellow+"Sanaur Asif"+cyan+"\n\tFB:"+yellow+" https://fb.com/sanaur.asif.72")
 		a=input(cyan+"\n\n\t\t[>] Press "+yellow+"Enter"+cyan+" to Continue")
 		count=1
 	else:
