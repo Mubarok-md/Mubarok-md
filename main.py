@@ -30,7 +30,7 @@ notice=green+""
 # Definition
 
 def header():
-	print(logo+cyan+"\n\n\n\t\tDeveloped By : Sanaur Asif\n\n"+green+"\t\t     Version : "+str(version)+" \n\n"+end+line+"\n"+end)
+	print(logo+cyan+"\n\n\n\t\tDeveloped By : HACKER BOY\n\n"+green+"\t\t     Version : "+str(version)+" \n\n"+end+line+"\n"+end)
 
 def clear():
 	os.system("clear || cls")
