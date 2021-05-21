@@ -22,7 +22,6 @@ logo=red+str("""
     |_| |_/_/   \_\____|_|\_\_____|_| \_\ |____/ \___/ |_|""")
  
 
-
 os.system("clear || cls")
 
 notice=green+""
@@ -208,7 +207,7 @@ while count<2:
 		
 	elif main_opt==str(about):
 		notice=""
-		print(cyan+"\n\n\tYoutube:"+yellow+"\n\n\thttps://www.youtube.com/c/RootOfCyber"+cyan+"\n\n\tFacebook:"+yellow+"\n\n\thttps://www.facebook.com/RootOfCyber"+cyan+"\n\n\tWhat\'s app:"+yellow+"\n\n\thttps://chat.whatsapp.com/JPTOWlsJhhgEVtzht4tAlr"+cyan+"\n\n\tTelegram:\n"+yellow+"https://t.me/joinchat/RScE4xF8TiQIOs2Z"+cyan+"\n\n\n\n\tContact Us:"+yellow+"\n\n\trootofcyber@gmail.com"+cyan+"\n\n\n\tDeveloped By "+yellow+"Sanaur Asif"+cyan+"\n\tFB:"+yellow+" https://fb.com/sanaur.asif.72")
+		print(cyan+"\n\n\tYoutube:"+yellow+"\n\n\thttps://www.youtube.com/c/"+cyan+"\n\n\tFacebook:"+yellow+"\n\n\thttps://www.facebook.com/"+cyan+"\n\n\tWhat\'s app:"+yellow+"\n\n\thttps://chat.whatsapp.com/"+cyan+"\n\n\tTelegram:\n"+yellow+"https://t.me/joinchat/"+cyan+"\n\n\n\n\tContact Us:"+yellow+"\n\n\banglahacker404@gmail.com@gmail.com"+cyan+"\n\n\n\tDeveloped By "+yellow+"HACKER BOY"+cyan+"\n\tFB:"+yellow+" https://fb.com/HACKER BOY.72")
 		a=input(cyan+"\n\n\t\t[>] Press "+yellow+"Enter"+cyan+" to Continue")
 		count=1
 	else:
